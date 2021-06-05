@@ -76,11 +76,10 @@ section:nth-of-type(odd) {
     font-weight: 600;
     text-shadow: 1px 1px 2px black;
     color: #AEF3E7;
-    
 }
 
 section:nth-child(2) {
-    background-image: url('/ressources/ala-sA4JM1lYYgQ-unsplash.jpg');
+    background-image: url('/ressources/sam-moqadam-yxZSAjyToP4-unsplash.jpg');
     background-position: center;
 }
 
@@ -90,7 +89,7 @@ section:nth-child(4) {
 }
 
 section:nth-child(6) {
-    background-image: url('/ressources/mugavant.JPG');
+    background-image: url('/ressources/sam-moqadam-yxZSAjyToP4-unsplash.jpg');
     background-position: center;
 }
 
@@ -105,6 +104,10 @@ section:nth-child(7) > p {
     color: #C33C54;
     font-weight: 700;
     font-style: italic;
+}
+
+img {
+    width: 50%;
 }
 
 footer {
@@ -143,3 +146,4 @@ footer > a {
         width: 60%;
     }
 }
+
