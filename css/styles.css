@@ -1,0 +1,145 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url('https://unsplash.com/photos/ecUVGNZA1TM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink');
+    margin: 0;
+    background-color: #FFF;
+}
+header {
+    margin: auto;
+    width: 100vw;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+}
+
+header > h1 {
+    color: #C33C54;
+    padding: 1em;
+    text-align: center;
+    font-size: 4em;
+}
+
+section {
+    box-sizing: border-box;
+    height: 100vh;
+    text-align: center;
+    padding: 1.3em;
+    font-size: 2em;
+    line-height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background: cover no-repeat fixed;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-decoration: overline solid  #C33C54;
+    padding: 5px;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+li {
+    font-size: 1.2em;
+}
+
+section > ul {
+    width: 60vw;
+}
+
+section:nth-of-type(odd) > p {
+    padding: 10px;
+    text-align: center;
+    width: 50vw;
+    background-color: #ffffff;
+    opacity: 0.7;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px #FFF;
+    color: #C33C54;
+    font-weight: 700;
+    font-style: italic;
+}
+
+section:nth-of-type(even) {
+    background-color: #C33C54;
+    color: #FFF;
+    text-decoration: underline solid  #C33C54;
+}
+
+section:nth-of-type(odd) {
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black;
+    color: #AEF3E7;
+    
+}
+
+section:nth-child(2) {
+    background-image: url('/ressources/ala-sA4JM1lYYgQ-unsplash.jpg');
+    background-position: center;
+}
+
+section:nth-child(4) {
+    background-image: url('/ressources/mae-mu-ecUVGNZA1TM-unsplash.jpg');
+    background-position: center;
+}
+
+section:nth-child(6) {
+    background-image: url('/ressources/mugavant.JPG');
+    background-position: center;
+}
+
+section:nth-child(7) > p {
+    padding: 10px;
+    text-align: center;
+    width: 50vw;
+    background-color: #ffffff;
+    opacity: 0.7;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px #FFF;
+    color: #C33C54;
+    font-weight: 700;
+    font-style: italic;
+}
+
+footer {
+    padding: 1.25em;
+    width: 100vw;
+    background-color: #fff;
+}
+
+footer > p {
+    color: #C33C54;
+    text-align: center;
+    font-size: 1.3em;
+    margin: 10px;
+    padding: 1.25em;
+}
+
+footer > a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 450px) {
+    header {
+        margin: auto;
+        width: 100vw;
+        background-color: #fff;
+        position: unset;
+    }
+
+    section {
+        height: unset;
+    }
+    
+    section:nth-child(7) > p {
+        word-break: break-all;
+        overflow: auto;
+        width: 60%;
+    }
+}
