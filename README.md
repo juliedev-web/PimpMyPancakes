@@ -9,6 +9,10 @@ Je reprend un challenge réalisé durant ma formation chez [O'Clock](https://ocl
 - Travail et révision du CSS (propriétés, pseudo-classes, positionnement header et footer)
 - Site reponsive (utilisation des %, em, vh et vw pour les tailles, et un mediaquery à partir de 400px)
 
+## Le projet est visible
+- sur le repo [Github] (https://github.com/juliedev-web/PimpMyPancakes)
+- Il est déployé sur [Vercel](https://pimp-my-pancakes-juliedev-web.vercel.app) 
+
 ## Outils utilisés
 - Trello et Notion pour la gestion du projet
 - VSCode
