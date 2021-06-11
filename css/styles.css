@@ -8,6 +8,7 @@ header {
     background-color: #fff;
     position: fixed;
     top: 0;
+    z-index: 2;
 }
 
 header > h1 {
@@ -62,6 +63,7 @@ section:nth-of-type(odd) > p {
     color: #C33C54;
     font-weight: 700;
     font-style: italic;
+    z-index: 1;
 }
 
 section:nth-of-type(even) {
