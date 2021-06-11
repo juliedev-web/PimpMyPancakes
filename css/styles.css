@@ -2,7 +2,6 @@ body {
     font-family: 'Lato', sans-serif;
     background-image: url('https://unsplash.com/photos/ecUVGNZA1TM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink');
     margin: 0;
-    background-color: #FFF;
 }
 header {
     margin: auto;
@@ -79,17 +78,17 @@ section:nth-of-type(odd) {
 }
 
 section:nth-child(2) {
-    background-image: url('/ressources/sam-moqadam-yxZSAjyToP4-unsplash.jpg');
+    background-image: url('/ressources/sam-moqadam-large.jpg');
     background-position: center;
 }
 
 section:nth-child(4) {
-    background-image: url('/ressources/mae-mu-ecUVGNZA1TM-unsplash.jpg');
+    background-image: url('/ressources/mae-mu-large.jpg');
     background-position: center;
 }
 
 section:nth-child(6) {
-    background-image: url('/ressources/sam-moqadam-yxZSAjyToP4-unsplash.jpg');
+    background-image: url('/ressources/whitney-wright-6G98hiCJETA-unsplash.jpg');
     background-position: center;
 }
 
@@ -144,6 +143,11 @@ footer > a {
         word-break: break-all;
         overflow: auto;
         width: 60%;
+    }
+
+    section:nth-child(6) {
+        background-image: url('/ressources/yulia-khlebnikova-t_XM5pTc6wc-unsplash.jpg');
+        background-position: center;
     }
 }
 
