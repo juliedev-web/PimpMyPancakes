@@ -7,11 +7,11 @@ Je reprend un challenge réalisé durant ma formation chez [O'Clock](https://ocl
 - Nouveau CSS (nouvelle palette de couleurs, nouvelles polices)
 - Ajout d'un header et d'un footer
 - Travail et révision du CSS (propriétés, pseudo-classes, positionnement header et footer)
-- Site reponsive (utilisation des %, em, vh et vw pour les tailles, et un mediaquery à partir de 400px)
+- Site reponsive (avec plusieurs tailles de photo selon les tailles d'écran, et formats adaptatifs en %, em, vh ou vm)
 
 ## Le projet est visible
 - sur le repo [Github] (https://github.com/juliedev-web/PimpMyPancakes)
-- Il est déployé sur [Vercel](https://pimp-my-pancakes-juliedev-web.vercel.app) 
+- Il est déployé sur Vercel [à cette adresse](https://pimp-my-pancakes-juliedev-web.vercel.app) 
 
 ## Outils utilisés
 - Trello et Notion pour la gestion du projet
