@@ -1,6 +1,5 @@
 body {
     font-family: 'Lato', sans-serif;
-    background-image: url('https://unsplash.com/photos/ecUVGNZA1TM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink');
     margin: 0;
 }
 header {
@@ -78,18 +77,21 @@ section:nth-of-type(odd) {
 }
 
 section:nth-child(2) {
-    background-image: url('/ressources/sam-moqadam-large.jpg');
+    background-image: url('/ressources/responsive-desktop/sam-moqadam-large.jpg');
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 section:nth-child(4) {
-    background-image: url('/ressources/mae-mu-large.jpg');
+    background-image: url('/ressources/responsive-desktop/mae-mu-large.jpg');
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 section:nth-child(6) {
-    background-image: url('/ressources/whitney-wright-6G98hiCJETA-unsplash.jpg');
+    background-image: url('/ressources/responsive-desktop/whitney-wright-6G98hiCJETA-unsplash.jpg');
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 section:nth-child(7) > p {
@@ -138,7 +140,7 @@ footer > a {
     section {
         height: unset;
     }
-    
+
     section:nth-child(7) > p {
         word-break: break-all;
         overflow: auto;
@@ -146,8 +148,38 @@ footer > a {
     }
 
     section:nth-child(6) {
-        background-image: url('/ressources/yulia-khlebnikova-t_XM5pTc6wc-unsplash.jpg');
+        background-image: url('/ressources/responsive-tablette/yulia-khlebnikova-medium.jpg');
         background-position: center;
     }
 }
 
+@media screen and (max-width: 750px){
+
+    section:nth-child(6) {
+        background-image: url('/ressources/responsive-tablette/yulia-khlebnikova-medium.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 2000px){
+
+    section:nth-child(2) {
+        background-image: url('/ressources/responsive-desktopXL/sam-moqadam-extralarge.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    section:nth-child(4) {
+        background-image: url('/ressources/responsive-desktopXL/mae-mu-extralarge.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    section:nth-child(6) {
+        background-image: url('/ressources/responsive-desktopXL/whitney-wright-extralarge.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+}
