@@ -69,7 +69,10 @@ section:nth-of-type(odd) > p {
 section:nth-of-type(even) {
     background-color: #C33C54;
     color: #FFF;
-    text-decoration: underline solid  #C33C54;
+    
+}
+section:nth-of-type(even) > h2 {
+    text-decoration: underline solid  #FFF;
 }
 
 section:nth-of-type(odd) {

@@ -8,6 +8,7 @@ Je reprend un challenge réalisé durant ma formation chez [O'Clock](https://ocl
 - Ajout d'un header et d'un footer
 - Travail et révision du CSS (propriétés, pseudo-classes, positionnement header et footer)
 - Site reponsive (avec plusieurs tailles de photo selon les tailles d'écran, et formats adaptatifs en %, em, vh ou vm)
+- Vérification des performances avec Lightouse (et notamment pour l'accessibilité)
 
 ## Le projet est visible
 - sur le repo [Github] (https://github.com/juliedev-web/PimpMyPancakes)
