@@ -13,6 +13,8 @@ Je reprend un challenge réalisé durant ma formation chez [O'Clock](https://ocl
 ## Le projet est visible
 - sur le repo [Github] (https://github.com/juliedev-web/PimpMyPancakes)
 - Il est déployé sur Vercel [à cette adresse](https://pimp-my-pancakes.netlify.app) 
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/2c456342-61f0-4fc4-9704-a2668ed0df98/deploy-status)](https://app.netlify.com/sites/pimp-my-pancakes/deploys)
+
 
 ## Outils utilisés
 - Trello et Notion pour la gestion du projet
