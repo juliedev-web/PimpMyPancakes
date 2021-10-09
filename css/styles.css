@@ -140,12 +140,14 @@ footer > a {
 
     section {
         height: unset;
+        font-size: 1.5em;
+
     }
 
     section:nth-child(7) > p {
         word-break: break-all;
         overflow: auto;
-        width: 60%;
+        width: 100%;
     }
 
     section:nth-child(6) {
